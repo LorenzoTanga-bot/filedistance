@@ -21,14 +21,14 @@ the two files to be compared are passed as arguments and an output of the follow
 
 	./filedistance distance <fileA> <fileB> <fOutput>
 
-the two files to compareare are passed as arguments and in the file fOutput will be saved sequence of instructions necessary to transform the first file into the second.
+the two files to compare are passed as arguments and in the file fOutput will be saved the sequence of instructions necessary to transform the first file into the second.
 The ADDnb, DELn, and SETnb values ('n' is an integer without a sign represented by 4 bytes identifying a position, while 'b' is a single byte representing a character) are stored in binary file.
 
 ## Applying of the modifies:
 
 	./filedistance apply <fInput> <fileM> <fOutput> 
 	
-Apply the changes contained in the fileM file to fInput and save the result to the fOutput file.
+Apply the changes contained in the fileM to fInput and save the result to the fOutput file.
 
 ## File search:
 	
